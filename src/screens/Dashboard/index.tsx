@@ -1,6 +1,9 @@
 import React from "react";
 import { HighlightCard } from "../../components/HighlightCard";
-import { TransactionsCard, TransactionCardProps } from "../../components/TransactionsCard";
+import {
+  TransactionsCard,
+  TransactionCardProps,
+} from "../../components/TransactionsCard";
 
 import {
   Container,
@@ -65,13 +68,17 @@ export function Dashboard() {
       <Header>
         <UserWrapper>
           <UserInfo>
-            <Photo source={{ uri: "https://avatars.githubusercontent.com/u/91428845?v=4" }} />
+            <Photo
+              source={{
+                uri: "https://avatars.githubusercontent.com/u/91428845?v=4",
+              }}
+            />
             <User>
               <UserGreeting>Olá,</UserGreeting>
               <UserName>Lucas Cavalcante</UserName>
             </User>
           </UserInfo>
-          <LogoutButton onPress={() => {} }>
+          <LogoutButton onPress={() => {}}>
             <Icon name="power" />
           </LogoutButton>
         </UserWrapper>

@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components/native";
 import { Feather } from "@expo/vector-icons";
-import { RectButton } from "react-native-gesture-handler";
+import { RectButton } from 'react-native-gesture-handler';
 import { RFValue } from "react-native-responsive-fontsize";
 
 interface IconsProps {
@@ -40,7 +40,7 @@ export const Button = styled(RectButton)`
   padding: 16px;
 `;
 
-export const Icon = styled(Feather)<IconsProps>`
+export const Icon = styled(Feather) <IconsProps>`
   font-size: ${RFValue(24)}px;
   margin-right: 12px;
 

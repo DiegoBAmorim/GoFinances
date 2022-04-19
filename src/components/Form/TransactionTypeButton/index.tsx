@@ -13,7 +13,12 @@ interface Props extends RectButtonProps {
   isActive: boolean;
 }
 
-export function TransactionTypeButton({ title, type, isActive, ...rest }: Props) {
+export function TransactionTypeButton({
+  title,
+  type,
+  isActive,
+  ...rest
+}: Props) {
   return (
     <Container isActive={isActive} type={type}>
       <Button {...rest}>
